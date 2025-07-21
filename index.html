@@ -5,27 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Badlungon IPT101</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#skill">Skills</a>
-        <a href="#about">About</a>
-        <a href="#project">Projects</a>
-        <a href="#contact">Contact</a>
+    <nav class="nav-links">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#skill">ABOUT</a></li>
+            <li><a href="#about">SKIllS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>     
     </nav>
-    <section id="home">
-        <div>
-            <h3>Hello,Its Me</h3>
-            <h1>Mark Badlungon</h1>
-            <h2>And I'm a Web developer</h2>
-        </div>
-        <div>
-            <img src="resources/download (2).jpg" alt="Mark Badlungon">
-        </div>
-    </section>
-    
-    <p>Hello Sir.Bacor this is my portfolio for final project</p>
-    <p>Thank you for the opportunity to learn and grow in this course.</p>
+    <main>
+        <section id="home">
+            <h2>Aspiring Web Developer
+            <h1>My name is Mark Marten</h1>
+            <p>You don't have far. To go far.</p>
+            <button>About Me</button>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <article>I am a passionate Full-Stack Developer with 1 years of experience, evolving from a Junior Developer at a leading tech firm to a Lead Engineer. My core philosophy is bridging cutting-edge technology with practical business goals. I hold an BS in Information Technology from Southway College in Technology.</article>
+        <!-- ending of about section -->
+        </section>
+        <section id="skill">
+            <h2>My Skills & Expertise</h2>
+
+            <div class="skills-category">
+                <h3>Frontend Development</h3>
+                <ul>
+                    <li>HTML5, CSS3 (Sass/SCSS, BEM)</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Responsive Design & Mobile-First Development</li>
+                    <li>Bootstrap / Tailwind CSS</li>
+                </ul>
+            </div>
+        
+            <div class="skills-category">
+                <h3>Backend Development</h3>
+                <ul>
+                    <li>Python (Django, Flask) / PHP (Laravel)
+                    <li>Unit Testing (Jest, Mocha)</li>
+                </ul>
+            </div>
+        
+            <div class="skills-category">
+                <h3>Database Management</h3>
+                <ul>
+                    <li>SQL (MySQL)</li>
+                    <li>NoSQL (MongoDB)</li>
+                    <li>Database Design & Optimization</li>
+                </ul>
+            </div>
+        
+            <div class="skills-category">
+                <h3>Tools & Platforms</h3>
+                <ul>
+                    <li>Git & GitHub/GitLab/Bitbucket</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+        
+            <div class="skills-category">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Problem-Solving & Debugging</li>
+                    <li>Agile Methodologies (Scrum, Kanban)</li>
+                    <li>Team Collaboration & Communication</li>
+                    <li>Continuous Learning</li>
+                    <li>Time Management & Organization</li>
+                </ul>
+            </div>
+        <!-- ending of skill section -->
+        </section>
+    </main>
+    <footer id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li><i class="fa-brands fa-github"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+        </ul>
+        <form>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name"><br>
+                <label for="email">Email: </label>
+                <input type="email" id="email"><br>
+            </div>
+            <label for="messages">Messages:</label>
+            <textarea placeholder="messages" id="messages"></textarea><br>
+            <input type="submit">
+        </form>
+        <p>Author page reference</p>
+        <p>© 2025 Markm</p>
+    </footer>
+    <script src="script/script.js"></script>
 </body>
 </html>
